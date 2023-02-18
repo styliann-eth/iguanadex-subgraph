@@ -54,7 +54,7 @@ type Pool @entity {
 
   # MetaStablePool and LinearPool Only
   priceRateProviders: [PriceRateProvider!] @derivedFrom(field: "poolId")
-
+  
   # ConvergentCurvePool (Element) Only
   principalToken: Bytes
   baseToken: Bytes
@@ -98,6 +98,9 @@ type Pool @entity {
   # FXPool Only
   delta: BigDecimal
   epsilon: BigDecimal
+
+  # InvestmentPool Only
+  managementFee: BigDecimal
 
   # Composable and WeightedV2 Only
   isInRecoveryMode: Boolean
