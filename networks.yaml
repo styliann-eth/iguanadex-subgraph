@@ -279,7 +279,7 @@ gnosis:
     address: "0x85a80afee867aDf27B50BdB7b76DA70f1E853062"
     startBlock: 25415236
 bsctestnet:
-  network: bsctestnet
+  network: chapel
   Vault:
     address: "0x3ABf84a6f863D31B747fd702533d67cb4224c59d"
     startBlock: 26981804
