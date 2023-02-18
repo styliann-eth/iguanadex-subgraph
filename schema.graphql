@@ -99,9 +99,6 @@ type Pool @entity {
   delta: BigDecimal
   epsilon: BigDecimal
 
-  # InvestmentPool Only
-  managementFee: BigDecimal
-
   # Composable and WeightedV2 Only
   isInRecoveryMode: Boolean
   protocolSwapFeeCache: BigDecimal
